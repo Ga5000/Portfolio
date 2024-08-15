@@ -39,8 +39,26 @@
   "certificate2": "Java Exception Handling",
   "certificate3": "Java: Lambdas and Streams",
   "viewAllCertificates": "Se você quiser ver todos os meus certificados, acesse meu",
-  "linkedinProfile": "perfil no LinkedIn"
+  "linkedinProfile": "perfil no LinkedIn",
+
+    "contactTitle": "Contato",
+    "contactText": "Se você está interessado em trabalhar comigo, entre em contato:",
+    "contactEmail": "E-mail:",
+    "contactPhone": "Telefone:",
+
+    "experienceTitle": "Experiência",
+  "lookingForFirstJob": "Atualmente, estou em busca do meu primeiro emprego em desenvolvimento de software. Estou ansioso para aplicar meus conhecimentos e habilidades para contribuir com uma equipe de desenvolvimento dinâmica.",
+
+  "projectsTitle": "Projetos",
+  "projectName1": "Rest api - Biblioteca",
+  "projectName2": "Portfolio",
+  "usedTechnologies": "Tecnologias Utilizadas:",
+  "gitRepoLink": "Link do Repositório Git",
+  "projectStatus": "Status",
+  "ongoingP": "Em Andamento",
+  "completedAt": "Concluído Em"
   }
+  
   
     
   

@@ -1,0 +1,53 @@
+.pj{
+    margin-top: 30px;
+}
+
+
+.projects {
+    padding: 20px;
+    background-color: #232323;
+  }
+  
+   h2 {
+    font-size: 32px;
+    color: darkgreen;
+    margin-left: 20px;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .project {
+    background-color: #909090;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    font-weight: bold;
+    color: #094f98;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  

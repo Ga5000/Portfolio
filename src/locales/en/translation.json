@@ -40,8 +40,26 @@
         "certificate2": "Java Exception Handling",
         "certificate3": "Java: Lambdas and Streams",
         "viewAllCertificates": "If you want to see all my certificates, go to my",
-        "linkedinProfile": "LinkedIn profile"
-      }
+        "linkedinProfile": "LinkedIn profile",
+
+          "contactTitle": "Contact",
+          "contactText": "If you are interested in working with me reach me out:",
+          "contactEmail": "Email:",
+          "contactPhone": "Phone:",
+
+          "experienceTitle": "Experience",
+          "lookingForFirstJob": "Currently looking for my first job in software development. I am eager to apply my knowledge and skills to contribute to a dynamic development team.",
+
+          "projectsTitle": "Projects",
+          "projectName1": "Library Rest api",
+          "projectName2": "Portfolio",
+          "usedTechnologies": "Used Technologies:",
+          "gitRepoLink": "Git Repository Link",
+          "projectStatus": "Status",
+          "ongoingP": "Ongoing",
+          "completedAt": "Completed At"
+        }
+        
       
     
       
