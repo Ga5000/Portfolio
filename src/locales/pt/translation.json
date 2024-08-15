@@ -20,7 +20,28 @@
   "tools": "Ferramentas: Git, DBeaver",
   "concepts": "Conceitos: OOP, Algoritmos, Estruturas de Dados, Padrões de Design de Software",
   "softSkills": "Habilidades Interpessoais: Trabalho em equipe, Resolução de problemas, Comunicação, Responsabilidade e Aprendizado contínuo",
-  "languages": "Idiomas: Inglês"
-    
+  "languages": "Idiomas: Inglês e Português",
+  
+   "educationTitle": "Educação",
+  "computerScienceDegree": "Graduação em Ciências da Computação",
+  "ongoing": "(Em andamento)",
+  "universityName": "Universidade de São Paulo (UNICID)",
+  "cityCountry": "São Paulo, Brasil",
+  "expectedGraduation": "Formatura prevista",
+  "englishCourse": "Curso de Inglês",
+  "completed": "(Concluído)",
+  "kumon": "Kumon",
+  "completedIn": "Concluído em",
+  "javaProgramming": "Fundamentos em Linguagem de Programação Java",
+  "schoolName": "Senai 'Anchieta'",
+  "certificatesTitle": "Certificados",
+  "certificate1": "Learning Java 17",
+  "certificate2": "Java Exception Handling",
+  "certificate3": "Java: Lambdas and Streams",
+  "viewAllCertificates": "Se você quiser ver todos os meus certificados, acesse meu",
+  "linkedinProfile": "perfil no LinkedIn"
   }
+  
+    
+  
   

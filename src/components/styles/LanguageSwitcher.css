@@ -6,9 +6,11 @@
   }
   
   .dropdown {
+    display: flex;
+    align-items: center;
     cursor: pointer;
   }
-  
+
   .dropdown-toggle {
     width: 35px; 
     height: auto;

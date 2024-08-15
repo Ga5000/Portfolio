@@ -1,0 +1,43 @@
+.education {
+    background-color: #1a1a1a;
+    color: #e6e6e6;
+    padding: 40px 20px;
+    margin-top: 50px;
+    border-left: 5px solid darkgreen;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  .education h2 {
+    font-size: 32px;
+    color: darkgreen;
+    margin-bottom: 20px;
+  }
+  
+  .education p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .education strong {
+    color: #ffffff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .education {
+      padding: 20px;
+    }
+  
+    .education h2 {
+      font-size: 28px;
+    }
+  
+    .education p {
+      font-size: 16px;
+    }
+  }
+  

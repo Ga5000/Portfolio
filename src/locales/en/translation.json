@@ -20,9 +20,32 @@
     "tools": "Tools: Git, DBeaver",
     "concepts": "Concepts: OOP, Algorithms, Data Structures, Software Design Patterns",
     "softSkills": "Soft Skills: Teamwork, Problem Solving, Communication, Responsibility, and Continuous Learning",
-    "languages": "Languages: English"
+    "languages": "Languages: English and Portuguese",
+
+      "educationTitle": "Education",
+      "computerScienceDegree": "Bachelor of Computer Science",
+      "ongoing": "(Ongoing)",
+      "universityName": "Universidade de São Paulo (UNICID)",
+      "cityCountry": "São Paulo, Brazil",
+      "expectedGraduation": "Expected Graduation",
+      "englishCourse": "English Course",
+      "completed": "(Completed)",
+      "kumon": "Kumon South America Education Institute LTDA",
+      "completedIn": "Completed in",
+      "javaProgramming": "Fundamentals in Java Programming Language",
+      "schoolName": "School Senai 'Anchieta'",
+
+        "certificatesTitle": "Certificates",
+        "certificate1": "Learning Java 17",
+        "certificate2": "Java Exception Handling",
+        "certificate3": "Java: Lambdas and Streams",
+        "viewAllCertificates": "If you want to see all my certificates, go to my",
+        "linkedinProfile": "LinkedIn profile"
+      }
+      
+    
       
       
-  }
+  
  
   

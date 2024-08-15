@@ -27,6 +27,7 @@ const LanguageSwitcher = () => {
           alt="Language"
           className="dropdown-toggle"
         />
+        
         {isOpen && (
           <div className="dropdown-menu">
             <div className="dropdown-item" onClick={() => handleLanguageChange('en')}>
