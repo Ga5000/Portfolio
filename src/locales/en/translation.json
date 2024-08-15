@@ -1,0 +1,28 @@
+{
+    "aboutMe": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "experience": "Experience",
+    "contact": "Contact", 
+    
+    "name": "Gabriel Lisboa",
+    "title": "Computer Science Student & Aspiring Software Developer",
+     "downloadResume": "Download Resume",
+
+    "aboutMeTitle": "About Me",
+    "aboutMeText": "I am a passionate software developer with a strong foundation in object-oriented programming (OOP), algorithms, and MySQL. Currently studying Computer Science at UNICID, I have extensive experience in Java and Spring Boot. I am committed to excellence and continuous learning, always striving to improve and tackle new challenges in the world of software development.",
+
+    "skillsTitle": "Skills",
+    "programmingLanguages": "Programming Languages: Java, JavaScript",
+    "frameworksLibraries": "Frameworks & Libraries: Spring Boot, ReactJs, BeanUtils",
+    "databaseManagement": "Database Management: MySQL, DBeaver",
+    "tools": "Tools: Git, DBeaver",
+    "concepts": "Concepts: OOP, Algorithms, Data Structures, Software Design Patterns",
+    "softSkills": "Soft Skills: Teamwork, Problem Solving, Communication, Responsibility, and Continuous Learning",
+    "languages": "Languages: English"
+      
+      
+  }
+ 
+  

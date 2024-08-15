@@ -1,0 +1,26 @@
+{
+    "aboutMe": "Sobre Mim",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "education": "Educação",
+    "experience": "Experiência",
+    "contact": "Contato",
+    
+      "name": "Gabriel Lisboa",
+      "title": "Estudante de Ciência da Computação & Aspirante a Desenvolvedor de Software",
+       "downloadResume": "Baixar Currículo",
+
+        "aboutMeTitle": "Sobre Mim",
+  "aboutMeText": "Sou um desenvolvedor de software apaixonado com uma sólida base em programação orientada a objetos (OOP), algoritmos e MySQL. Atualmente estudando Ciências da Computação na UNICID, tenho ampla experiência em Java e Spring Boot. Estou comprometido com a excelência e o aprendizado contínuo, sempre buscando melhorar e enfrentar novos desafios no mundo do desenvolvimento de software.",
+
+  "skillsTitle": "Habilidades",
+  "programmingLanguages": "Linguagens de Programação: Java, JavaScript",
+  "frameworksLibraries": "Frameworks e Bibliotecas: Spring Boot, ReactJs, BeanUtils",
+  "databaseManagement": "Gerenciamento de Banco de Dados: MySQL, DBeaver",
+  "tools": "Ferramentas: Git, DBeaver",
+  "concepts": "Conceitos: OOP, Algoritmos, Estruturas de Dados, Padrões de Design de Software",
+  "softSkills": "Habilidades Interpessoais: Trabalho em equipe, Resolução de problemas, Comunicação, Responsabilidade e Aprendizado contínuo",
+  "languages": "Idiomas: Inglês"
+    
+  }
+  
