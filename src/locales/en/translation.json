@@ -14,7 +14,7 @@
 
     "skillsTitle": "Skills",
     "programmingLanguages": "Programming Languages: Java, JavaScript",
-    "frameworksLibraries": "Frameworks & Libraries: Spring Boot, ReactJs, BeanUtils",
+    "frameworksLibraries": "Frameworks & Libraries: Spring Boot, ReactJs",
     "databaseManagement": "Database Management: MySQL, DBeaver",
     "tools": "Tools: Git, DBeaver",
     "concepts": "Concepts: OOP, Algorithms, Data Structures, Software Design Patterns",
