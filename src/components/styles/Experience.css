@@ -1,22 +1,49 @@
 .experience {
-    padding: 60px 20px;
-    background-color: #1a1a1a;
-    text-align: center;
-    margin-top: 35px;
+  padding: 60px 20px;
+  background-color: #1a1a1a;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.experience h2 {
+  font-size: 2.5rem;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.experience p {
+  font-size: 1.5rem;
+  color: #666;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  text-shadow: 0 0 5px #666;
+}
+
+@media screen and (max-width: 768px) {
+  .experience {
+      padding: 40px 15px;
   }
-  
+
   .experience h2 {
-    font-size: 2.5rem;
-    color: #4caf50;
-    margin-bottom: 20px;
+      font-size: 2rem;
   }
-  
+
   .experience p {
-    font-size: 1.5rem;
-    color: #666;
-    line-height: 1.6;
-    max-width: 600px;
-    margin: 0 auto;
-    text-shadow: 0 0 5px #666;
+      font-size: 1.25rem;
   }
-  
+}
+
+@media screen and (max-width: 480px) {
+  .experience {
+      padding: 30px 10px;
+  }
+
+  .experience h2 {
+      font-size: 1.75rem;
+  }
+
+  .experience p {
+      font-size: 1rem;
+  }
+}

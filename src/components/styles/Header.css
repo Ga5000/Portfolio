@@ -7,12 +7,14 @@
     border-bottom: 2px solid #003300;
     position: relative;
     margin-top: 90px;
-    height: 30vh;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 .header .text-section {
     text-align: left;
     flex: 1;
+    min-width: 200px;
 }
 
 .header h1 {
@@ -48,13 +50,13 @@
 }
 
 .header .social-links img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-left: 15px; 
 }
 
 .header .resume-button {
-    display: flex ;
+    display: flex;
     text-align: center;
     padding: 12px 25px; 
     background-color: transparent;
@@ -66,7 +68,7 @@
     transition: background-color ease-in 0.8s;
 }
 
-.header .resume-button img{
+.header .resume-button img {
     width: 20px;
     height: auto;
     margin-left: 5px;
@@ -77,3 +79,87 @@
     border: none;
 }
 
+@media (max-width: 1024px) {
+    .header {
+        padding: 30px 40px;
+    }
+
+    .header h1 {
+        font-size: 48px;
+    }
+
+    .header h2 {
+        font-size: 20px;
+    }
+
+    .header .social-links img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header .resume-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 20px 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header .text-section {
+        text-align: center;
+        margin-bottom: 20px;
+        flex: none;
+    }
+
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .header h2 {
+        font-size: 18px;
+    }
+
+    .header .social-resume {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .header .social-links img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header .resume-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 15px 20px;
+    }
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .header h2 {
+        font-size: 16px;
+    }
+
+    .header .social-links img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header .resume-button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}

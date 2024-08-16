@@ -1,33 +1,59 @@
-
 .contact {
-    padding: 40px 20px;
-    background-color: #000;
-    text-align: center;
-    border-radius: 8px;
-    margin: 40px 0;
-    border-top: 2px solid #003300;
+  padding: 40px 20px;
+  background-color: #000;
+  text-align: center;
+  border-radius: 8px;
+  margin: 40px 0;
+  border-top: 2px solid #003300;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+
+.contact p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #555;
+  text-shadow: 0 0 1px #555;
+}
+
+.contact a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+      padding: 30px 15px;
   }
-  
+
   .contact h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #333;
-    text-shadow: 0 0 1px #333;
+      font-size: 1.8em;
   }
-  
+
   .contact p {
-    font-size: 1.2em;
-    margin: 10px 0;
-    color: #555;
-    text-shadow: 0 0 1px #555;
+      font-size: 1em;
   }
-  
-  .contact a {
-    color: #007BFF;
-    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .contact {
+      padding: 20px 10px;
   }
-  
-  .contact a:hover {
-    text-decoration: underline;
+
+  .contact h2 {
+      font-size: 1.5em;
   }
-  
+
+  .contact p {
+      font-size: 0.9em;
+  }
+}

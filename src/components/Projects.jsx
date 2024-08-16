@@ -34,7 +34,7 @@ const Projects = () => {
             <li>CSS</li>
           </ul>
           <a href="https://github.com/Ga5000/Portfolio" target='_blank'>{t('gitRepoLink')}</a>
-          <p>{t('projectStatus')}: {t('completedAt')} - 15/08/2024</p>
+          <p>{t('projectStatus')}: {t('ongoingP')}</p>
         </div>
       </div>
     </section>
