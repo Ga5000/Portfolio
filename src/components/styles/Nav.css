@@ -17,6 +17,13 @@
   filter: drop-shadow(4px 4px 8px rgba(21, 214, 59, 0.5));
 }
 
+.menu-icon {
+  display: none;
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
 nav {
   flex-grow: 1;
   margin-left: 20px;
@@ -50,50 +57,53 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
-  .nav-pt {
-      padding: 10px 15px;
+
+  
+  .menu-icon {
+    display: block;
+    margin-left: 320px;
   }
 
   nav {
-      margin-left: 0;
+    margin-left: 0;
   }
 
   nav ul {
-      flex-direction: column;
-      align-items: flex-start;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      background-color: #030303;
-      width: 100%;
-      display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #030303;
+    width: 100%;
+    display: none;
   }
 
   nav ul.show {
-      display: flex;
+    display: flex;
   }
 
   nav ul li {
-      margin: 10px 0;
+    margin: 10px 0;
   }
 
   nav ul li a {
-      font-size: 18px;
-      padding: 10px 20px;
+    font-size: 18px;
+    padding: 10px 20px;
   }
 
   .logo {
-      width: 40px;
+    width: 40px;
   }
 }
 
 @media (max-width: 480px) {
   nav ul li a {
-      font-size: 14px;
-      padding: 8px 15px;
+    font-size: 14px;
+    padding: 8px 15px;
   }
 
   .logo {
-      width: 35px;
+    width: 35px;
   }
 }
