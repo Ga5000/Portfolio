@@ -38,7 +38,7 @@ const Projects = () => {
             <li>Hibernate\MySQL</li>
           </ul>
           <a href="https://github.com/Ga5000/Library-Rest-API" target='_blank'>{t('gitRepoLink')}</a>
-          <p>{t('projectStatus')}: {t('completedAt')} - <strong>24/08/2024</strong></p>
+          <p>{t('projectStatus')}: {t('OngoingP')}</p>
         </div>
       </div>
       
