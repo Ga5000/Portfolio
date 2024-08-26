@@ -24,6 +24,24 @@ const Projects = () => {
           <p>{t('projectStatus')}: {t('completedAt')} - <strong>24/08/2024</strong></p>
         </div>
       </div>
+
+      <div className="project-container">
+        <div className="project">
+          <h3>{t('projectName3')}</h3>
+          <p>{t('usedTechnologies')}</p>
+          <ul>
+            <li>Java</li>
+            <li>Maven</li>
+            <li>Spring Boot</li>
+            <li>Spring MVC, JPA, Security</li>
+            <li>Java Mail Sender</li>
+            <li>Hibernate\MySQL</li>
+          </ul>
+          <a href="https://github.com/Ga5000/Library-Rest-API" target='_blank'>{t('gitRepoLink')}</a>
+          <p>{t('projectStatus')}: {t('completedAt')} - <strong>24/08/2024</strong></p>
+        </div>
+      </div>
+      
       <div className="project-container">
         <div className="project">
           <h3>{t('projectName2')}</h3>
