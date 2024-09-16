@@ -32,13 +32,10 @@ const Projects = () => {
           <ul>
             <li>Java</li>
             <li>Maven</li>
-            <li>Spring Boot</li>
-            <li>Spring MVC, JPA, Security</li>
-            <li>Java Mail Sender</li>
-            <li>Hibernate\MySQL</li>
+            <li>Java Swing</li>
           </ul>
-          <a href="https://github.com/Ga5000/Clinic" target='_blank'>{t('gitRepoLink')}</a>
-          <p>{t('projectStatus')}: {t('ongoingP')}</p>
+          <a href="https://github.com/Ga5000/SudokuSolver" target='_blank'>{t('gitRepoLink')}</a>
+          <p>{t('projectStatus')}: {t('completedAt')} - <strong>13/09/2024</strong></p>
         </div>
       </div>
       
