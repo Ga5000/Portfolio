@@ -21,7 +21,7 @@ const projects: ProjectInterface[] = [
     id: 1,
     title: isEnglish ? "E-commerce API" : "API de E-commerce",
     description: isEnglish
-      ? "A robust e-commerce platform built with Java and Spring Boot, supporting user authentication, product management, and payment processing via Stripe API. It also integrates MinioS3 for secure file."
+      ? "A robust e-commerce platform built with Java and Spring Boot, supporting user authentication, product management, and payment processing via Stripe API. It also integrates MinioS3 for secure file storage."
       : "Uma plataforma de e-commerce robusta desenvolvida com Java e Spring Boot, oferecendo autenticação de usuários, gerenciamento de produtos e processamento de pagamentos via Stripe API. Além disso, integra MinioS3 para armazenamento seguro de arquivos.",
     status: isEnglish ? StatusEN.Active : StatusPT.Ativo,
     repo: "https://github.com/Ga5000/E-commerce",
@@ -29,6 +29,16 @@ const projects: ProjectInterface[] = [
   },
   {
     id: 2,
+    title: isEnglish ? "Blog API" : "API de Blog",
+    description: isEnglish
+      ? "A powerful and scalable Blog API built with Java and Spring Boot, designed to manage posts, users, and comments efficiently. It includes user authentication, role-based access control, and RESTful endpoints for seamless integration. The API supports CRUD operations, pagination, and search functionality to enhance content management. It also ensures security with JWT authentication and integrates with a relational database for structured data storage."
+      :"Uma API de Blog poderosa e escalável desenvolvida com Java e Spring Boot, projetada para gerenciar posts, usuários e comentários de forma eficiente. Inclui autenticação de usuários, controle de acesso baseado em funções e endpoints RESTful para fácil integração. A API suporta operações CRUD, paginação e funcionalidade de busca para otimizar a gestão de conteúdo. Além disso, garante segurança com autenticação JWT e se integra a um banco de dados relacional para armazenamento estruturado de dados.",
+    status: isEnglish ? StatusEN.Active : StatusPT.Ativo,
+    repo: "https://github.com/Ga5000/E-commerce",
+    stacks: ["Java", "MySQL", "Spring Boot", "PostMan", "MinioS3"]
+  },
+  {
+    id: 3,
     title: isEnglish ? "Sudoku Solver" : "Solvedor de Sudoku",
     description: isEnglish
       ? "A Java-based Sudoku solver featuring a graphical interface built with Java Swing. Users can input numbers into a 9x9 board and press the 'Solve' button to receive an instant solution, leveraging backtracking algorithms to efficiently compute the correct answer."
