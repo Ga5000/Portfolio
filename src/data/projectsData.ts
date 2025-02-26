@@ -34,7 +34,7 @@ const projects: ProjectInterface[] = [
       ? "A powerful and scalable Blog API built with Java and Spring Boot, designed to manage posts, users, and comments efficiently. It includes user authentication, role-based access control, and RESTful endpoints for seamless integration. The API supports CRUD operations, pagination, and search functionality to enhance content management. It also ensures security with JWT authentication and integrates with a relational database for structured data storage."
       :"Uma API de Blog poderosa e escalável desenvolvida com Java e Spring Boot, projetada para gerenciar posts, usuários e comentários de forma eficiente. Inclui autenticação de usuários, controle de acesso baseado em funções e endpoints RESTful para fácil integração. A API suporta operações CRUD, paginação e funcionalidade de busca para otimizar a gestão de conteúdo. Além disso, garante segurança com autenticação JWT e se integra a um banco de dados relacional para armazenamento estruturado de dados.",
     status: isEnglish ? StatusEN.Active : StatusPT.Ativo,
-    repo: "#",
+    repo: "https://github.com/Ga5000/Blog-API",
     stacks: ["Java", "MySQL", "Spring Boot", "PostMan", "MinioS3"]
   },
   {
@@ -42,9 +42,9 @@ const projects: ProjectInterface[] = [
     title: isEnglish ? "PortFolio" : "Portfolio",
     description: isEnglish
       ? "This portfolio website you are currently viewing is designed to showcase my projects and achievements. It evolves over time, receiving updates such as new projects, added features, and ongoing improvements."
-      : "Este site de portfólio que você está visualizando foi desenvolvido para exibir meus projetos e conquistas. Ele evolui ao longo do tempo, recebendo atualizações como novos projetos, recursos adicionados e melhorias contínuas."
+      : "Este site de portfólio que você está visualizando foi desenvolvido para exibir meus projetos e conquistas. Ele evolui ao longo do tempo, recebendo atualizações como novos projetos, recursos adicionados e melhorias contínuas.",
     status: isEnglish ? StatusEN.Archived : StatusPT.Arquivado,
-    repo: "#",
+    repo: "https://github.com/Ga5000/Portfolio",
     stacks: ["React", "TypeScript", "TailwindCss"]
   },
   {
