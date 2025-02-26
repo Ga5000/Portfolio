@@ -46,8 +46,7 @@ const projects: ProjectInterface[] = [
     status: isEnglish ? StatusEN.Archived : StatusPT.Arquivado,
     repo: "#",
     stacks: ["React", "TypeScript", "TailwindCss"]
-  }
-  
+  },
   {
     id: 4,
     title: isEnglish ? "Sudoku Solver" : "Solvedor de Sudoku",
