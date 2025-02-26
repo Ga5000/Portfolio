@@ -41,8 +41,8 @@ const projects: ProjectInterface[] = [
     id: 3,
     title: isEnglish ? "PortFolio" : "Portfolio",
     description: isEnglish
-      ? "This portfolio website you are currently viewing is designed to showcase my projects and achievements. It evolves over time, receiving updates such as new projects, added features, and ongoing improvements. One of the key highlights is a powerful and scalable Blog API built with Java and Spring Boot, designed to manage posts, users, and comments efficiently. The API includes user authentication, role-based access control, and RESTful endpoints for seamless integration. It supports CRUD operations, pagination, and search functionality, enhancing content management. Security is ensured with JWT authentication, and it integrates with a relational database for structured data storage."
-      : "Este site de portfólio que você está visualizando foi desenvolvido para exibir meus projetos e conquistas. Ele evolui ao longo do tempo, recebendo atualizações como novos projetos, recursos adicionados e melhorias contínuas. Um dos destaques é uma API de Blog poderosa e escalável, construída com Java e Spring Boot, projetada para gerenciar posts, usuários e comentários de forma eficiente. A API inclui autenticação de usuários, controle de acesso baseado em funções e endpoints RESTful para fácil integração. Ela suporta operações CRUD, paginação e funcionalidade de busca, otimizando a gestão de conteúdo. A segurança é garantida com autenticação JWT e ela se integra a um banco de dados relacional para armazenamento estruturado de dados.",
+      ? "This portfolio website you are currently viewing is designed to showcase my projects and achievements. It evolves over time, receiving updates such as new projects, added features, and ongoing improvements."
+      : "Este site de portfólio que você está visualizando foi desenvolvido para exibir meus projetos e conquistas. Ele evolui ao longo do tempo, recebendo atualizações como novos projetos, recursos adicionados e melhorias contínuas."
     status: isEnglish ? StatusEN.Archived : StatusPT.Arquivado,
     repo: "#",
     stacks: ["React", "TypeScript", "TailwindCss"]
