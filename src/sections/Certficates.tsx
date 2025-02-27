@@ -33,12 +33,20 @@ const certificates: Certificate[] = [
     relevant: 3 
   },
   {
+    title: "Security Engineering and Cyber Risk",
+    issuer: "Cybrary",
+    date: "2025",
+    category: "Cyber Security",
+    link: "",
+    relevant: 1 
+  },
+  {
     title: "Networking Basics",
     issuer: "Cisco Networking Academy",
     date: "2025",
     category: "Networks",
     link: "https://drive.google.com/file/d/1sqGI9rIpoe7z3E8Tex-MPXCvjMwNLsvf/view?usp=drive_link",
-    relevant: 1 
+    relevant: 2 
   },
   {
     title: "Introduction to Cyber Security",
@@ -46,7 +54,7 @@ const certificates: Certificate[] = [
     date: "2025",
     category: "Cyber Security",
     link: "",
-    relevant: 1 
+    relevant: 2 
   },
   {
     title: "General Coding Courses",
@@ -54,7 +62,7 @@ const certificates: Certificate[] = [
     date: "2024",
     category: "Coding",
     link: "https://drive.google.com/drive/folders/1Mxs-K_ffqdMes0bC4gtP9qXAut94dU1f?usp=drive_link",
-    relevant: 2 
+    relevant: 3 
   },
   {
     title: "English Course",
