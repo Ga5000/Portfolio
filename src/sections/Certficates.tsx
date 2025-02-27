@@ -33,7 +33,7 @@ const certificates: Certificate[] = [
     relevant: 3 
   },
   {
-    title: "Security Engineering and Cyber Risk",
+    title: "Security Engineer",
     issuer: "Cybrary",
     date: "2025",
     category: "Cyber Security",
