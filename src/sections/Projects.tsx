@@ -4,7 +4,7 @@ import { ProjectInterface } from "../data/interfaces";
 
 interface ProjectProps {
   darkMode: boolean;
-  isEnglish: boolean; 
+  isEnglish: boolean;
   projects: ProjectInterface[];
 }
 
@@ -40,23 +40,27 @@ const Projects: React.FC<ProjectProps> = ({ darkMode, isEnglish, projects }) => 
   }, [projects]);
 
   return (
-    <section className="mt-60 mb-60 relative" id="projects-section">
+    <section 
+      className="mt-20 sm:mt-32 md:mt-40 lg:mt-60 mb-20 sm:mb-32 md:mb-40 lg:mb-60 relative px-4 sm:px-6 md:px-8" 
+      id="projects-section"
+    >
       <h1
         className={`${
           darkMode ? "text-white" : "text-black"
-        } text-5xl italic ml-40 transition-all duration-500 ease-in-out transform translate-x-0 opacity-100`}
+        } text-3xl sm:text-4xl md:text-5xl italic ml-4 sm:ml-6 md:ml-10 lg:ml-16 xl:ml-40 transition-all duration-500 ease-in-out transform translate-x-0 opacity-100`}
       >
         {isEnglish ? "Projects" : "Projetos"}
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 mx-40">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mt-6 sm:mt-8 mx-4 sm:mx-6 md:mx-10 lg:mx-16 xl:mx-40">
         {projects.map((project, index) => (
           <div
             key={project.id}
             ref={(el) => (cardRefs.current[index] = el)}
+            className="w-full"
           >
             <ProjectCard
               darkMode={darkMode}
-              isEnglish={isEnglish} 
+              isEnglish={isEnglish}
               project={project}
             />
           </div>
