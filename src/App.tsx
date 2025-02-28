@@ -8,6 +8,7 @@ import Projects from "./sections/Projects";
 import projects from './data/projectsData';
 import Certificates from "./sections/Certficates";
 import Footer from "./sections/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 const App: React.FC = () => {
   const userLanguage = navigator.language.toLowerCase();
@@ -117,6 +118,7 @@ const App: React.FC = () => {
         <Certificates darkMode={isDarkMode} />
         <Footer darkMode={isDarkMode} isEnglish={isEnglish} />
       </main>
+      <Analytics />
     </div>
   );
 };
