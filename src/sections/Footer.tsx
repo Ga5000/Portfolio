@@ -12,7 +12,6 @@ const Footer: React.FC<FooterProps> = ({ darkMode, isEnglish }) => {
   return (
     <footer
       className={`w-full ${darkMode ? 'bg-gray-900 border-gray-800' : 'bg-gray-200 border-gray-100'} backdrop-blur-sm border-t py-6 sm:py-8 md:py-10`}
-      style={{ marginTop: '200px', "@media (min-width: 640px)": { marginTop: '300px' }, '@media (min-width: 768px)': { marginTop: '400px' }, '@media (min-width: 1024px)': { marginTop: '500px' } }}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
