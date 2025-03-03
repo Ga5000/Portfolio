@@ -17,6 +17,14 @@ interface Certificate {
 
 const certificates: Certificate[] = [
   {
+    title: "Bootcamp - Java Cloud Bradesco",
+    issuer: "DIO",
+    date: "2025",
+    category: "Back-end Development",
+    link: "",
+    relevant: 1  
+  },
+  {
     title: "Java Basic",
     issuer: "HackerRank",
     date: "2025",
