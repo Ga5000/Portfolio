@@ -3,7 +3,7 @@ import { Skill } from '../data/interfaces';
 import skills from '../data/skillsData';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconType } from "react-icons";
-import { Cloud, Server, Bolt, Monitor, Database } from "lucide-react";
+import { Cloud, Server, Bolt, Monitor, Database, NetworkIcon } from "lucide-react";
 
 interface SkillsProps {
   darkMode?: boolean;
@@ -17,14 +17,16 @@ function Skills({ darkMode }: SkillsProps): JSX.Element {
     "DevOps & Deploy": skills.filter((skill) => skill.type === "devops & deploy"),
     "Tools": skills.filter((skill) => skill.type === "tools"),
     "DataBases": skills.filter((skill) => skill.type === "database"),
+    "Network": skills.filter((skill) => skill.type === "network"),
   };
 
   const categoryIcons = {
-  "Back-end": { Icon: Server, color: darkMode ? "text-green-400" : "text-green-600", bgColor: darkMode ? "bg-green-950/30" : "bg-green-50" },
+    "Back-end": { Icon: Server, color: darkMode ? "text-green-400" : "text-green-600", bgColor: darkMode ? "bg-green-950/30" : "bg-green-50" },
     "Front-end": { Icon: Monitor, color: darkMode ? "text-purple-400" : "text-purple-600", bgColor: darkMode ? "bg-purple-950/30" : "bg-purple-50" },
     "DevOps & Deploy": { Icon: Cloud, color: darkMode ? "text-orange-400" : "text-orange-600", bgColor: darkMode ? "bg-orange-950/30" : "bg-orange-50" },
     "Tools": { Icon: Bolt, color: darkMode ? "text-yellow-400" : "text-yellow-600", bgColor: darkMode ? "bg-yellow-950/30" : "bg-yellow-50" },
     "DataBases": { Icon: Database, color: darkMode ? "text-teal-400" : "text-teal-600", bgColor: darkMode ? "bg-teal-950/30" : "bg-teal-50" },
+    "Network": { Icon: NetworkIcon, color: darkMode ? "text-blue-400" : "text-blue-600", bgColor: darkMode ? "bg-blue-950/30" : "bg-blue-50" },
   };
 
   return (
@@ -39,7 +41,6 @@ function Skills({ darkMode }: SkillsProps): JSX.Element {
           }`} style={{marginRight: "1100px"}}>
             {language === "pt" ? "Habilidades" : "Skills"}
           </h2>
-        
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">

@@ -1,9 +1,11 @@
-// skills.ts
+
 import { Skill } from "./interfaces";
-import { SiSpringboot, SiTypescript, SiMinio, SiVercel, SiRender, SiRailway, SiApachemaven, SiPostman} from "react-icons/si";
-import {FaGitAlt, FaGithub,  FaReact, FaJava, FaAws,  FaDocker  } from "react-icons/fa";
+import { SiSpringboot, SiTypescript, SiMinio, SiVercel, SiRender, SiRailway, SiApachemaven, SiPostman } from "react-icons/si";
+import { FaGitAlt, FaGithub, FaReact, FaJava, FaAws, FaDocker, FaLinux, FaWindows } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { DiMysql,  DiPostgresql } from "react-icons/di";
+import { DiMysql, DiPostgresql } from "react-icons/di";
+import { GiNetworkBars } from "react-icons/gi"; 
+import { BiNetworkChart } from "react-icons/bi"; 
 
 const skills: Skill[] = [
   {
@@ -90,6 +92,62 @@ const skills: Skill[] = [
     image: DiPostgresql,
     name: "PostgreSQL",
     type: "database",
+  },
+  // New Network Skills
+  {
+    image: GiNetworkBars,
+    name: "IPv4",
+    type: "network",
+  },
+  {
+    image: GiNetworkBars,
+    name: "IPv6",
+    type: "network",
+  },
+  {
+    image: GiNetworkBars,
+    name: "LAN",
+    type: "network",
+  },
+  {
+    image: GiNetworkBars,
+    name: "WAN",
+    type: "network",
+  },
+  {
+    image: FaLinux,
+    name: "Linux",
+    type: "network",
+  },
+  {
+    image: FaWindows,
+    name: "Windows",
+    type: "network",
+  },
+  {
+    image: GiNetworkBars,
+    name: "Wireless Networks",
+    type: "network",
+  },
+  {
+    image: BiNetworkChart,
+    name: "TCP",
+    type: "network",
+  },
+  {
+    image: BiNetworkChart,
+    name: "UDP",
+    type: "network",
+  },
+  {
+    image: BiNetworkChart,
+    name: "TCP/IP",
+    type: "network",
+  },
+  {
+    image: BiNetworkChart,
+    name: "OSI Model",
+    type: "network",
   },
 ];
 
