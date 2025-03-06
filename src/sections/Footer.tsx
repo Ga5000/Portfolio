@@ -12,7 +12,7 @@ const Footer: React.FC<FooterProps> = ({ darkMode, isEnglish }) => {
   return (
     <footer
       className={`w-full ${darkMode ? 'bg-gray-900 border-gray-800' : 'bg-gray-200 border-gray-100'} backdrop-blur-sm border-t py-6 sm:py-8 md:py-10`}
-    >
+    id="contact">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
       

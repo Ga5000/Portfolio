@@ -1,5 +1,3 @@
-import Skills from './Skills';
-
 interface HomeProps {
   darkMode: boolean;
   isEnglish: boolean;
@@ -7,19 +5,44 @@ interface HomeProps {
 
 const Home: React.FC<HomeProps> = ({ darkMode, isEnglish }) => {
   return (
-    <section className="relative w-full min-h-screen" id="home-section">
-      <div className="absolute left-4 sm:left-12 md:left-24 lg:left-36 xl:left-52 
-                      top-16 sm:top-24 md:top-36 lg:top-44 xl:top-52 
-                      flex flex-col animate-home">
-        <h1 className={`${darkMode ? 'text-white' : 'text-black'} text-4xl sm:text-4xl md:text-6xl xl:text-7xl animate-child delay-0`}>
-          <span className="text-green-600 font-semibold cursor-pointer">Gabriel</span> Lisboa
+    <section
+      className="relative w-full min-h-screen flex items-center justify-center "
+      id="home-section"
+    >
+      <div className="flex flex-col items-center text-center animate-home px-4">
+        <h1
+          className={`
+            ${darkMode ? 'text-white' : 'text-gray-900'}
+            text-4xl sm:text-5xl md:text-6xl lg:text-7xl 
+            font-light tracking-tight animate-child delay-0
+          `}
+        >
+          <span className="text-green-500 font-light bg-clip-text hover:text-green-400 transition-colors duration-300">
+            Gabriel
+          </span>{' '}
+          Lisboa
         </h1>
-        <h3 className={`${darkMode ? 'text-white' : 'text-black'} font-semibold italic text-xl sm:text-2xl md:text-2xl xl:text-3xl ml-1 sm:ml-2 md:ml-3 mt-1 sm:mt-2 animate-child delay-1`}>
+        <h3
+          className={`
+            ${darkMode ? 'text-gray-200' : 'text-gray-700'}
+            text-lg sm:text-xl md:text-2xl lg:text-3xl 
+            font-medium italic mt-3 sm:mt-4 
+            animate-child delay-1
+          `}
+        >
           {isEnglish ? 'CS Student' : 'Estudante de CCOMP'}
         </h3>
+        <p
+          className={`
+            ${darkMode ? 'text-gray-300' : 'text-gray-600'}
+            text-base sm:text-lg md:text-xl mt-4 sm:mt-6 max-w-xl animate-child delay-2
+          `}
+        >
+          {isEnglish
+            ? 'Building robust and scalable backend systems with a focus on efficiency and reliability.'
+            : 'Construindo sistemas backend robustos e escaláveis com foco em eficiência e confiabilidade.'}
+        </p>
       </div>
-      
-      <Skills darkMode={darkMode} />
     </section>
   );
 };

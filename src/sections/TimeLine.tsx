@@ -30,7 +30,7 @@ const TimeLine: React.FC<TimeLineProps> = ({ darkMode, items }) => {
 
   return (
     <section className={`relative max-w-6xl mx-auto px-5 ${darkMode ? 'text-white' : 'text-black'}`} id="timeline-section">
-      <div style={{ marginTop: '100px' }}>
+      <div style={{ marginTop: '400px' }}>
         <div className="relative">
           <div className="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-gray-700 pointer-events-none"></div>
           {items.map((item, index) => (

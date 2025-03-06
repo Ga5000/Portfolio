@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import Home from "./sections/Home";
+import Skills from "./sections/Skills";
 import { GraduationCap, Code, FolderCog, Laptop, Server, BookOpen, Briefcase } from "lucide-react";
 import TimeLine from "./sections/TimeLine";
 import { TimeLineItem } from "data/interfaces";
@@ -113,6 +114,7 @@ const App: React.FC = () => {
       <Header darkMode={isDarkMode} toggleMode={toggleMode} />
       <main className="flex-grow">
         <Home darkMode={isDarkMode} isEnglish={isEnglish} />
+        <Skills darkMode={isDarkMode}/>
         <TimeLine darkMode={isDarkMode} items={timelineItems} />
         <Projects darkMode={isDarkMode} isEnglish={isEnglish} projects={projects} />
         <Certificates darkMode={isDarkMode} />

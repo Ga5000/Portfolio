@@ -17,7 +17,7 @@ interface Certificate {
 
 const certificates: Certificate[] = [
   {
-    title: "Bootcamp - Java Cloud Bradesco",
+    title: "Decola Tech 2025 - Avanade",
     issuer: "DIO",
     date: "2025",
     category: "Back-end Development",
@@ -139,7 +139,7 @@ const Certificates: React.FC<CertificatesProps> = ({ darkMode }) => {
     .sort((a, b) => a.relevant - b.relevant); 
 
   return (
-    <section className={`py-16 px-4 md:px-6 max-w-7xl mx-auto`}>
+    <section className={`py-16 px-4 md:px-6 max-w-7xl mx-auto`} id="certificates">
       <div className="space-y-12">
         <div className="text-center space-y-4">
           <span className={`inline-block px-4 py-1 text-sm font-medium rounded-full ${

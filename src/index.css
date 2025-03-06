@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 h1, h3{
   font-family: 'Open sans', sans-serif;

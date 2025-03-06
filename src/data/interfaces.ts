@@ -1,3 +1,5 @@
+import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
+import { IconType } from "react-icons";
 
 
 enum StatusEN {
@@ -28,13 +30,14 @@ interface ProjectInterface {
   description : string;
   status: StatusEN | StatusPT;
   repo: string;
-  stacks: string[]
+  stacks: IconType[]
 }
 
 
 interface Skill {
-  image: string;
+  image: IconType;
   name: string;
+  type: string;
 }
 
 export { TimeLineItem, ProjectInterface, Skill };

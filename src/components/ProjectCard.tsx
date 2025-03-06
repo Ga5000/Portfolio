@@ -118,19 +118,20 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ darkMode, isEnglish, project 
             {project.description}
           </p>
           <div className="flex flex-wrap gap-2 p-2">
-            {project.stacks.map((stack, index) => (
-              <span
-                key={index}
-                className={`${
-                  darkMode
-                    ? "text-gray-200 border-gray-600"
-                    : "bg-gray-100 text-gray-700 border-gray-300"
-                } text-xs font-medium px-2 py-1 rounded-full border`}
-              >
-                {stack}
-              </span>
-            ))}
-          </div>
+  {project.stacks.map((Stack, index) => (
+    <span
+      key={index}
+      className={`inline-flex items-center justify-center ${
+        darkMode ? "border-gray-600" : "bg-gray-100 border-gray-300"
+      } px-2 py-1 rounded-full border`}
+    >
+      <Stack
+        size={16}
+        className={darkMode ? "text-gray-200" : "text-black"}
+      />
+    </span>
+  ))}
+</div>
         </div>
       </div>
     </div>
