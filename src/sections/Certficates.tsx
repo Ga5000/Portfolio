@@ -41,12 +41,20 @@ const certificates: Certificate[] = [
     relevant: 3 
   },
   {
-    title: "Security Engineer",
-    issuer: "Cybrary",
+    title: "Google Cybersecurity Professional Certificate",
+    issuer: "Coursera",
     date: "2025",
     category: "Cyber Security",
     link: "",
     relevant: 1 
+  },
+  {
+    title : "Introduction to Cloud 101",
+    issuer: "AWS",
+    date: "2025",
+    category: "Cloud",
+    link: "",
+    relevant: 1
   },
   {
     title: "Networking Basics",

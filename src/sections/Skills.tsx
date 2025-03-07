@@ -82,7 +82,7 @@ function Skills({ darkMode }: SkillsProps): JSX.Element {
                       <div className={`flex-shrink-0 w-8 h-8 flex items-center justify-center text-lg ${
                         darkMode ? "text-gray-400" : "text-gray-500"
                       }`}>
-                        {typeof skill.image === "function" ? (
+                        {typeof skill.image === "function"  ? (
                           React.createElement(skill.image as IconType, { size: 20 })
                         ) : (
                           <FontAwesomeIcon

@@ -93,36 +93,28 @@ const skills: Skill[] = [
     name: "PostgreSQL",
     type: "database",
   },
-  // New Network Skills
+
   {
     image: GiNetworkBars,
-    name: "IPv4",
+    name: "IPv4 & IPv6",
     type: "network",
   },
+ 
   {
     image: GiNetworkBars,
-    name: "IPv6",
+    name: "LAN & WAN",
     type: "network",
   },
-  {
-    image: GiNetworkBars,
-    name: "LAN",
-    type: "network",
-  },
-  {
-    image: GiNetworkBars,
-    name: "WAN",
-    type: "network",
-  },
+  
   {
     image: FaLinux,
     name: "Linux",
-    type: "network",
+    type: "tools",
   },
   {
     image: FaWindows,
     name: "Windows",
-    type: "network",
+    type: "tools",
   },
   {
     image: GiNetworkBars,
@@ -131,24 +123,14 @@ const skills: Skill[] = [
   },
   {
     image: BiNetworkChart,
-    name: "TCP",
+    name: "TCP & UDP",
     type: "network",
   },
   {
     image: BiNetworkChart,
-    name: "UDP",
+    name: "TCP/IP & OSI",
     type: "network",
-  },
-  {
-    image: BiNetworkChart,
-    name: "TCP/IP",
-    type: "network",
-  },
-  {
-    image: BiNetworkChart,
-    name: "OSI Model",
-    type: "network",
-  },
+  }
 ];
 
 export default skills;
