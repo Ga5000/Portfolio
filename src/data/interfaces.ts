@@ -33,7 +33,6 @@ interface ProjectInterface {
   stacks: IconType[]
 }
 
-
 interface Skill {
   image: IconType;
   name: string;

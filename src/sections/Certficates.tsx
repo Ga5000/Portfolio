@@ -53,8 +53,8 @@ const certificates: Certificate[] = [
     issuer: "AWS",
     date: "2025",
     category: "Cloud",
-    link: "",
-    relevant: 1
+    link: "https://www.credly.com/badges/dc55a032-9809-4e48-ab44-c66a222c2ddf/public_url",
+    relevant: 2
   },
   {
     title: "Networking Basics",
