@@ -44,6 +44,11 @@ const skills: Skill[] = [
     type: "devops & deploy",
   },
   {
+    image: FaDocker,
+    name: "Docker",
+    type: "devops & deploy",
+  },
+  {
     image: SiMinio,
     name: "Minio",
     type: "devops & deploy",
@@ -62,11 +67,6 @@ const skills: Skill[] = [
     image: SiRailway,
     name: "Railway",
     type: "devops & deploy",
-  },
-  {
-    image: FaDocker,
-    name: "Docker",
-    type: "tools",
   },
   {
     image: FaGitAlt,
@@ -111,16 +111,6 @@ const skills: Skill[] = [
     type: "network",
   },
   
-  {
-    image: FaLinux,
-    name: "Linux",
-    type: "tools",
-  },
-  {
-    image: FaWindows,
-    name: "Windows",
-    type: "tools",
-  },
   {
     image: GiNetworkBars,
     name: "Wireless Networks",
