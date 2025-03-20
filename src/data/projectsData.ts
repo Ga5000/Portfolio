@@ -1,5 +1,5 @@
 import { ProjectInterface } from "./interfaces";
-import { SiSpringboot, SiTypescript, SiMinio, SiPostman, SiStripe } from "react-icons/si";
+import { SiSpringboot, SiTypescript, SiMinio, SiPostman, SiStripe, SiRedis} from "react-icons/si";
 import { FaReact, FaJava} from "react-icons/fa";
 import { DiMysql} from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -34,11 +34,11 @@ const projects: ProjectInterface[] = [
     id: 2,
     title: isEnglish ? "Blog API" : "API de Blog",
     description: isEnglish
-      ? "A powerful and scalable Blog API built with Java and Spring Boot, designed to manage posts, users, and comments efficiently. It includes user authentication, role-based access control, and RESTful endpoints for seamless integration. The API supports CRUD operations, pagination, and search functionality to enhance content management. It also ensures security with JWT authentication and integrates with a relational database for structured data storage."
-      : "Uma API de Blog poderosa e escalável desenvolvida com Java e Spring Boot, projetada para gerenciar posts, usuários e comentários de forma eficiente. Inclui autenticação de usuários, controle de acesso baseado em funções e endpoints RESTful para fácil integração. A API suporta operações CRUD, paginação e funcionalidade de busca para otimizar a gestão de conteúdo. Além disso, garante segurança com autenticação JWT e se integra a um banco de dados relacional para armazenamento estruturado de dados.",
-    status: isEnglish ? StatusEN.Active : StatusPT.Ativo,
+      ? "A scalable and secure Blog API built with Java and Spring Boot. Key features include JWT authentication, Redis caching for optimized performance, Google OAuth2 login, MinIO for media storage, and role-based access control (RBAC). It supports complete CRUD operations for managing posts, comments, categories, likes, and dislikes, with RESTful navigation using HATEOAS for seamless pagination and navigation."
+      : "Uma API de Blog escalável e segura, desenvolvida com Java e Spring Boot. Principais funcionalidades incluem autenticação JWT, cache com Redis para desempenho otimizado, login com Google OAuth2, MinIO para armazenamento de mídia, e controle de acesso baseado em papéis (RBAC). Suporta operações CRUD completas para gerenciar posts, comentários, categorias, likes e dislikes, com navegação RESTful usando HATEOAS para facilitar a paginação e navegação.",
+    status: isEnglish ? StatusEN.Completed : StatusPT.Completo,
     repo: "https://github.com/Ga5000/Blog-API",
-    stacks: [FaJava, DiMysql, SiSpringboot, SiPostman, SiMinio]
+    stacks: [FaJava, DiMysql, SiSpringboot, SiPostman, SiMinio, SiRedis]
   },
   {
     id: 3,

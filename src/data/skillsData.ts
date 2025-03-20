@@ -1,6 +1,6 @@
 
 import { Skill } from "./interfaces";
-import { SiSpringboot, SiTypescript, SiMinio, SiVercel, SiRender, SiRailway, SiApachemaven, SiPostman } from "react-icons/si";
+import { SiSpringboot, SiTypescript, SiMinio, SiVercel, SiRender, SiRailway, SiApachemaven, SiPostman, SiRedis } from "react-icons/si";
 import { FaGitAlt, FaGithub, FaReact, FaJava, FaAws, FaDocker, FaLinux, FaWindows } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiMysql, DiPostgresql } from "react-icons/di";
@@ -17,6 +17,11 @@ const skills: Skill[] = [
     image: SiSpringboot,
     name: "Spring Boot",
     type: "backend",
+  },
+  {
+    image: SiRedis,
+    name: "Redis",
+    type: "backend"
   },
   {
     image: FaReact,
