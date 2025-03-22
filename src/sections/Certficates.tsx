@@ -207,7 +207,7 @@ const Certificates: React.FC<CertificatesProps> = ({ darkMode }) => {
     .sort((a, b) => a.relevant - b.relevant);
 
   return (
-    <section className={`py-16 px-4 md:px-6 max-w-6xl mx-auto ${darkMode ? "" : "bg-gray-50"}`} id="certificates">
+    <section className={`py-16 px-4 md:px-6 max-w-6xl mx-auto`} id="certificates">
       <div className="space-y-12">
         {/* Header */}
         <div className="text-center space-y-4">
