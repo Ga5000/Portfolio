@@ -68,31 +68,33 @@ const App: React.FC = () => {
       description: isEnglish
         ? "Dedicated time to solving algorithm problems, system design concepts, and mock interviews. Participated in multiple interviews to gain real-world experience." 
         : "Dediquei tempo à resolução de problemas algorítmicos, conceitos de design de sistemas e entrevistas simuladas. Participei de diversas entrevistas para ganhar experiência prática.",
-      date: isEnglish ? "Mid 2024" : "Meados de 2024",
+      date: isEnglish ? "June 2024" : "Jun 2024",
       icon: <Briefcase color='green' />
     },
     {
       id: '6',
-      title: isEnglish 
-        ? "Exploring Computer Networks and Cisco Certification" 
-        : "Explorando Redes de Computadores e Certificação Cisco",
-      description: isEnglish
-        ? "Developed a strong interest in networking, completed the Cisco Networking Basics course, and started exploring network protocols and security." 
-        : "Desenvolvi um grande interesse por redes, concluí o curso Cisco Networking Basics e comecei a explorar protocolos de rede e segurança.",
-      date: isEnglish ? "Jan 2025" : "Jan 2025",
-      icon: <Server color='green' />
-    },
-    {
-      id: '7',
       title: isEnglish 
         ? "Advancing in Algorithms, Data Structures, and System Design" 
         : "Aprofundando-se em Algoritmos, Estruturas de Dados e Design de Sistemas",
       description: isEnglish
         ? "Continuously improving problem-solving skills by studying data structures, algorithms, and system architecture to prepare for future challenges. Also focusing on personal projects to apply knowledge and explore new technologies." 
         : "Aprimorando continuamente as habilidades de resolução de problemas, estudando estruturas de dados, algoritmos e arquitetura de sistemas para me preparar para desafios futuros. Além disso, focando em projetos pessoais para aplicar conhecimento e explorar novas tecnologias.",
-      date: isEnglish ? "Present" : "Presente",
+      date: isEnglish ? "September 2024" : "Set 2024",
       icon: <Laptop color='green' />
+    },
+    {
+      id: '7',
+      title: isEnglish 
+        ? "Studying and Pursuing Online Certifications" 
+        : "Estudando e Buscando Certificações Online",
+      description: isEnglish
+        ? "Engaged in studying various topics, completing online courses, and working towards certifications to enhance knowledge and advance my education." 
+        : "Engajado no estudo de diversos tópicos, concluindo cursos online e buscando certificações para aprimorar o conhecimento e avançar na educação.",
+      date: isEnglish ? "Present" : "Presente",
+      icon: <BookOpen color='green' />
     }
+    
+ 
   ];
 
   const [isDarkMode, setIsDarkMode] = useState(true);
