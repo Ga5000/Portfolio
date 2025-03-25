@@ -47,14 +47,14 @@ const certificates: Certificate[] = [
   },
   {
     title: "Google Cybersecurity Professional",
-    issuer: "Coursera",
+    issuer: "Google",
     date: "2025",
     category: "Cyber Security",
     link: "",
     relevant: 1
   },
   {
-    title: "AWS Certified Cloud Practitioner",
+    title: "AWS Certified Cloud Practioner",
     issuer: "AWS",
     date: "2025",
     category: "Cloud",
