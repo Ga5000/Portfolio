@@ -116,7 +116,7 @@ const CertificateCard = ({
         </div>
         
         {/* Title */}
-        <h3 className={`text-lg font-semibold ${darkMode ? "text-white" : "text-gray-800"}`}>{title}</h3>
+        <h3 className={`font-semibold ${darkMode ? "text-white" : "text-gray-800"}`}>{title}</h3>
         
         {/* Issuer and date */}
         <div className="flex justify-between items-center">

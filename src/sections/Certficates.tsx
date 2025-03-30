@@ -78,6 +78,14 @@ const certificates: Certificate[] = [
     relevant: 2
   },
   {
+    title: "Networking Devices and Initial Configuration",
+    issuer: "Cisco Networking Academy",
+    date: "2025",
+    category: "Networks",
+    link: "",
+    relevant: 3
+  },
+  {
     title: "Introduction to Cyber Security",
     issuer: "Cisco Networking Academy",
     date: "2025",
