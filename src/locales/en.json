@@ -1,0 +1,15 @@
+{
+    "role": "CS Student",
+    "greeting": "Hello, I'm",
+    "skillsSectionTitle" : "Skills",
+    "item1": "First Steps in Programming",
+    "projectsSectionTitle": "Projects",
+    "active": "active",
+    "completed": "completed",
+    "archived": "archived",
+    "certificatesSectionTitle": "Certificates & Courses",
+    "viewCertificate": "View Certificate",
+    "inProgress": "In Progress",
+    "Connect": "Connect",
+    "All rights": "All rights reserved"
+}

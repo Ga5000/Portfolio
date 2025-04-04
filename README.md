@@ -1,4 +1,4 @@
-# [Gabriel Lisboa] Portfolio Website
+# Gabriel Lisboa Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, and experience as Back-end Developer. It’s built with modern web technologies to ensure a fast and visually appealing experience.
 
