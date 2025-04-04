@@ -1,7 +1,6 @@
 import React from "react";
-import { Link, Award } from "lucide-react";
+import { Link } from "lucide-react";
 import { Certificate } from "../common/interfaces";
-import { CategoryType } from "../types";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
