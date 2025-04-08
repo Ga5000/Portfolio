@@ -4,7 +4,7 @@ import Skills from "../elements/Skills";
 import TimeLine from "../elements/TimeLine";
 import Projects from "../elements/Projects";
 import Certificates from "../elements/Certificates";
-import Footer from "../elements/Elements";
+import Footer from "../elements/Footer";
 
 const Home: React.FC = () => {
 

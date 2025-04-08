@@ -91,6 +91,15 @@ const certificatesAndBadges: Certificate[] = [
       badgeNumber: null,
       relevant: 1,
     },
+    {
+      title: "Santander Bootcamp 2025",
+      issuer: "DIO",
+      date: "2025",
+      category: "Back-end Development",
+      link: "",
+      badgeNumber: null,
+      relevant: 1
+    }
   ];
 
 export default certificatesAndBadges;
