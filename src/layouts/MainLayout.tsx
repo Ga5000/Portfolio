@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar";
 import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
