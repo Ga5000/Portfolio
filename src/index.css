@@ -1,27 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
+@import 'tailwindcss';
 
 body{
-  font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#1A1A1C;
 }
-
-.timeline-text {
-    opacity: 0;
-    transition: opacity 0.8s, transform 0.8s;
-  }
-  
-  .timeline-left .timeline-text {
-    transform: translateX(-10%);
-  }
-  
-  .timeline-right .timeline-text {
-    transform: translateX(10%);
-  }
-  
-  .timeline-text.animated {
-    opacity: 1;
-    transform: translateX(0);
-  }
-
-  

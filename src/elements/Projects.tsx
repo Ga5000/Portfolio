@@ -1,69 +1,101 @@
-import { useRef, useEffect} from "react";
-import projects from "../data/projects";
-import ProjectCard from "../components/ProjectCard";
-import { useTranslation } from "react-i18next";
+import { motion } from 'framer-motion';
+import { Atom, Brain, CloudUpload, Coffee, Container, Database, FileCode2, Fingerprint, HardDrive, Leaf, Zap } from 'lucide-react';
+import ProjectCard, { ProjectProps } from '../components/ui/projectCard';
+import blogAPI from '../assets/blogAPI.png';
+import defaultProject from '../assets/defaultProject.png';
+import portfolio from '../assets/portfolio.png';
+import { useTranslation } from 'react-i18next';
 
-const Projects: React.FC = () => {
-
-    const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
-    const { t } = useTranslation();
-
-    useEffect(() => {
-      const observers = cardRefs.current.map((ref, index) => {
-        if (!ref) return null;
-  
-        const observer = new IntersectionObserver(
-          ([entry]) => {
-            if (entry.isIntersecting) {
-              ref.classList.add("animate-project-reveal");
-              ref.style.animationDelay = `${index * 100}ms`;
-            } else {
-              ref.classList.remove("animate-project-reveal");
-            }
-          },
-          {
-            threshold: 0.2,
-            rootMargin: "0px",
-          }
-        );
-  
-        observer.observe(ref);
-        return observer;
-      });
-  
-      return () => {
-        observers.forEach((observer) => observer?.disconnect());
-      };
-    }, [projects]);
-
-
-    return(
-            <section 
-              className="mt-20 sm:mt-32 md:mt-40 lg:mt-60 mb-20 sm:mb-32 md:mb-40 lg:mb-60 relative px-4 sm:px-6 md:px-8" 
-              id="projects-section"
-            >
-              <h1
-                className=" text-black dark:text-white text-3xl sm:text-4xl md:text-5xl italic ml-4 sm:ml-6 md:ml-10 lg:ml-16 xl:ml-40 transition-all duration-500 ease-in-out transform translate-x-0 opacity-100"
-              >
-                {t('projectsSectionTitle')}
-              </h1>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mt-6 sm:mt-8 mx-4 sm:mx-6 md:mx-10 lg:mx-16 xl:mx-40">
-                {projects.map((project, index) => (
-                  <div
-                    key={project.id}
-                    ref={(el) => (cardRefs.current[index] = el)}
-                    className="w-full"
-                  >
-                    <ProjectCard
-                      project={project}
-                    />
-                  </div>
-                ))}
-              </div>
-            </section>
-          );
-
+const containerVariants = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1, transition: { staggerChildren: 0.2, delayChildren: 0.2 } }
 };
 
+const itemVariants = {
+  initial: { opacity: 0, y: 50 },
+  animate: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 100 } }
+};
+
+const Projects = () => {
+  const { t } = useTranslation();
+
+  const projects: ProjectProps[] = [
+    {
+      id: 1,
+      title: "Blog API",
+      description: t('projects.blogAPI.description'),
+      date: t('projects.blogAPI.date'),
+      image: blogAPI,
+      githubUrl: "https://github.com/Ga5000/Blog-API",
+      liveUrl: "",
+      techStack: [
+        { icon: <Leaf size={16} className="text-green-500" />, name: "Spring Boot" },
+        { icon: <Coffee size={16} className="text-red-500" />, name: "Java" },
+        { icon: <HardDrive size={16} className="text-red-700" />, name: "Redis" },
+        { icon: <Database size={16} className="text-blue-400" />, name: "MySQL" },
+        { icon: <Container size={16} className="text-blue-700" />, name: "Docker" },
+        { icon: <CloudUpload size={16} className="text-purple-800" />, name: "MinIO" },
+        { icon: <Zap size={16} className="text-yellow-500" />, name: "Postman" },
+        { icon: <Fingerprint size={16} className="text-pink-400" />, name: "Oauth2" },
+      ]
+    },
+    {
+      id: 2,
+      title: "PhishWatch",
+      description: t('projects.phishWatch.description'),
+      date: t('projects.phishWatch.date'),
+      image: defaultProject,
+      githubUrl: "https://github.com/Ga5000/PhishWatch",
+      liveUrl: "",
+      techStack: [
+        { icon: <Leaf size={16} className="text-green-500" />, name: "Spring Boot" },
+        { icon: <Coffee size={16} className="text-red-500" />, name: "Java" },
+        { icon: <HardDrive size={16} className="text-red-700" />, name: "Redis" },
+        { icon: <Database size={16} className="text-blue-400" />, name: "MySQL" },
+        { icon: <Zap size={16} className="text-yellow-500" />, name: "Postman" },
+        { icon: <Brain size={16} className="text-blue-900" />, name: "Gemini AI" },
+        { icon: <Container size={16} className="text-blue-700" />, name: "Docker" },
+        { icon: <Fingerprint size={16} className="text-pink-400" />, name: "Oauth2" },
+        { icon: <Atom size={16} className="text-blue-400" />, name: "React" },
+        { icon: <FileCode2 size={16} className="text-blue-600" />, name: "TypeScript" },
+      ]
+    },
+    {
+      id: 3,
+      title: "Portfolio",
+      description: t('projects.portfolio.description'),
+      date: t('projects.portfolio.date'),
+      image: portfolio,
+      githubUrl: "https://github.com/Ga5000/Portfolio",
+      liveUrl: "",
+      techStack: [
+        { icon: <Atom size={16} className="text-blue-400" />, name: "React" },
+        { icon: <FileCode2 size={16} className="text-blue-600" />, name: "TypeScript" },
+      ]
+    }
+  ];
+
+  return (
+    <motion.section
+      className="py-16"
+      variants={containerVariants}
+      initial="initial"
+      animate="animate"
+    >
+      <div className="max-w-6xl mx-auto px-4">
+        <motion.h2 className="text-3xl font-bold mb-12 text-center text-white" variants={itemVariants}>
+          {t('projects.featured.title')} <span className="text-green-500">{t('projects.featured.span')}</span>
+        </motion.h2>
+        <motion.div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" variants={containerVariants}>
+          {projects.map((project) => (
+            <motion.div key={project.id} variants={itemVariants}>
+              <ProjectCard {...project} />
+            </motion.div>
+          ))}
+        </motion.div>
+      </div>
+    </motion.section>
+  );
+};
 
 export default Projects;
