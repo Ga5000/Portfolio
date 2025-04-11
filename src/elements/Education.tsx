@@ -119,7 +119,7 @@ const Education = () => {
         titleKey: "education.items.edu8.title",
         institutionKey: "education.items.edu8.institution",
         period: "2025",
-        link: "",
+        link: "https://drive.google.com/drive/u/1/folders/1swMSIfHvdAn2SSENTqJxAS5KJV4Nv5AE",
         icon: <Shield size={24} className="text-red-500" />,
         category: [{ icon: <Shield size={16} className="text-red-500" />, name: "Security" }],
         relevance: 2
