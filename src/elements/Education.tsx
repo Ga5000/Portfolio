@@ -111,7 +111,7 @@ const Education = () => {
         link: "https://www.credly.com/badges/dc55a032-9809-4e48-ab44-c66a222c2ddf/public_url",
         icon: <Box size={24} className="text-orange-500" />,
         category: [{ icon: <Cloud size={16} className="text-orange-500" />, name: "Cloud" }],
-        relevance: 2
+        relevance: 3
     },
     {
         id: "edu8",
@@ -168,6 +168,17 @@ const Education = () => {
         category: [{ icon: <Code size={16} className="text-yellow-500" />, name: "Coding" }],
         relevance: 3
     },
+    {
+      id: "edu13",
+      type: "courses",
+      titleKey: "education.items.edu13.title",
+      institutionKey: "education.items.edu13.institution",
+      period: "2025",
+      link: "https://drive.google.com/drive/u/1/folders/1bFdH-s2sVZshnGIiW4A2p4R8wRyaEC-x",
+      icon: <Box size={24} className="text-orange-500" />,
+      category: [{ icon: <Cloud size={16} className="text-orange-500" />, name: "Cloud" }],
+      relevance: 2
+  },
   ];
 
   const courseCategories = Array.from(new Set(educationList.flatMap(edu => edu.category.map(cat => cat.name))));

@@ -138,7 +138,12 @@ const resources = {
                 title: "General Coding Courses",
                 institution: "LinkedIn Learning",
                 period: "2024"
-            }
+            },
+            edu13: {
+              title: "AWS Cloud Practitioner Essentials",
+              institution: "AWS",
+              period: "2025"
+          }
         }
       },
       about: {
